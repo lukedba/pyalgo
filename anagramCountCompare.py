@@ -1,3 +1,4 @@
+#this use less iteration, but more space
 def anagramCountCompare(s1,s2):
     c1 = [0]*26
     c2 = [0]*26

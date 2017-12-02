@@ -8,7 +8,7 @@ def anagramSolution1(s1,s2):
         pos2 = 0
         found = False
         while pos2 < len(alist) and not found:
-            if s1[pos1] == alist[pos2]:
+            if alist[pos2] == s1[pos1]:
                 found = True
             else:
                 pos2 = pos2 + 1
@@ -22,4 +22,5 @@ def anagramSolution1(s1,s2):
 
     return stillOK
 
+#print(anagramSolution1('python','typhoon1q'))
 print(anagramSolution1('python','typhoon1q'))
