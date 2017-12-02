@@ -1,4 +1,4 @@
-#this use less space, but more iterations (think about the workload of sortcc
+#this use less space, but more iterations (think about the workload of sort)
 def anagramSortCompare(s1,s2):
     alist1 = list(s1)
     alist2 = list(s2)
